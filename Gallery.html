@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="Gallery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .carousel-item{
+       
+       width: 1500px;  
+       height: 700px;
+       background-position: center;  
+   }
+    </style>
+</head>
+<body>
+    <h2 class="text-center display-6 text-danger fw-bolder">Gallery</h2>
+    <div class="carousel slide" id="cl" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-slide-to="0" class="active" data-bs-target="#cl"></button>
+            <button type="button" data-bs-slide-to="1" class="active" data-bs-target="#cl"></button>
+            <button type="button" data-bs-slide-to="2" class="active" data-bs-target="#cl"></button>
+            <button type="button" data-bs-slide-to="3" class="active" data-bs-target="#cl"></button>
+            <button type="button" data-bs-slide-to="4" class="active" data-bs-target="#cl"></button>
+            <button type="button" data-bs-slide-to="5" class="active" data-bs-target="#cl"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.pinimg.com/originals/48/48/94/484894f43fe37fa3a3e4a2c95adda321.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                    <p class="h1 text-info">Golconda Fort</p>
+                    <p class="text-danger fs-5 fw-bold">Golconda Fort, situated in Hyderabad, India, is a monumental fortress with a rich history spanning centuries. Constructed in the 13th century, it served as a strategic stronghold for several ruling dynasties, including the Qutb Shahi and Mughals. Renowned for its sophisticated architecture, advanced engineering, and storied past, it stands as a testament to India's cultural and historical heritage.</p>
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img src="https://ghmc.info/wp-content/uploads/2023/06/Salar-Jung-Museum-Hyderabad.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p class="h1 text-danger">Salar-Jung-Museum</p>
+                        <p class="text-dark fs-5 fw-bold">The Salar Jung Museum, located in Hyderabad, India, is one of the country's premier museums. Named after Salar Jung III, it houses a vast collection of art, artifacts, and manuscripts from diverse cultures and time periods. Renowned for its exquisite exhibits, including rare sculptures, paintings, textiles, and weapons, the museum offers visitors a glimpse into the rich heritage of India and beyond.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpapers.com/images/hd/hyderabad-charminar-monument-pd7aiqkre3jjsu57.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                      <p class="h1 text-success">Charminar</p>
+                      <p class="text-white fs-5 fw-bold">Charminar, an iconic monument in Hyderabad, India, is a historic fortification and mosque built in 1591. Its distinctive four grand arches and minarets symbolize the city's rich cultural heritage. Serving as a landmark and center of activity, it attracts visitors with its intricate Islamic architecture, bustling markets, and panoramic views from its upper floors.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpapers.com/images/hd/hyderabad-chowmahalla-palace-grw905iud73bctj7.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p class="h1 text-info">Chowmahalla Palace</p>
+                        <p class="text-danger fs-5 fw-bold">Chowmahalla Palace, situated in Hyderabad, India, is a splendid architectural marvel dating back to the 18th century. Once the seat of the Asaf Jahi dynasty, it showcases exquisite Persian, Mughal, and European influences. The palace complex features opulent halls, courtyards, and gardens, offering a glimpse into the royal lifestyle and cultural heritage of Hyderabad.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Qutub-Shahi-Tombs.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p class="h1 text-primary">Qutub Shahi tombs</p>
+                        <p class="text-dark fs-5 fw-bold">The Qutub Shahi Tombs in Hyderabad, India, are an architectural ensemble housing the mausoleums of the rulers of the Qutb Shahi dynasty. Dating back to the 16th and 17th centuries, these majestic structures exhibit a unique blend of Persian, Indian, and Islamic architectural styles. The site stands as a testament to the dynasty's cultural and historical significance.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Hussain-Sagar-Lake-1.jpg" class="d-block w-100">
+                  <div class="carousel-caption">
+                      <p class="h1 text-danger">
+                        Hussain Sagar</p>
+                      <p class="text-dark fs-5 fw-bold">Hussain Sagar is a sprawling lake located in the heart of Hyderabad, India. Built during the reign of Ibrahim Quli Qutb Shah in 1563, it is one of the largest artificial lakes in Asia. The lake is adorned with the iconic Buddha statue in the center and offers recreational activities, boating, and picturesque views of the city skyline.</p>
+                  </div>
+              </div>
+                
+            
+        <button type="button" class="carousel-control-prev" data-bs-target="#cl" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#cl" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    </div>
+    <!--images---->
+    <div class="container">
+        <div class="row mt-5">
+            <h1 class="text-center text-primary">Hotels</h1>
+            <div class="col-md-4">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/51/5b/08/facade.jpg" alt="" > 
+                <h2 class="text-center">The Manohar</h2>  
+            </div>
+            <div class="col-md-4">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/36/08/2d/arial-view.jpg?w=700&h=-1&s=1" alt="">
+                <h2 class="text-center">Sheraton</h2>   
+            </div>
+            <div class="col-md-4">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/2f/b0/d3/trident-hyderabad-exterior.jpg?w=700&h=-1&s=1" alt="" >  
+                <h2 class="text-center">Trident</h2> 
+            </div>
+        </div>
+        <div class="row mt-5">
+            <h1 class="text-center text-primary">Famous Places</h1>
+            <div class="col-md-4">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Ramoji-Film-City.jpg" alt="" > 
+                <h2 class="text-center">Ramoji Film City</h2>  
+            </div>
+            <div class="col-md-4">
+                <img src="https://www.abhibus.com/blog/wp-content/uploads/2023/05/Bansilalpet-Stepwell-768x450.jpg" alt="">
+                <h2 class="text-center">Bansilapet Stepwell</h2>   
+            </div>
+            <div class="col-md-4">
+                <img src="https://www.abhibus.com/blog/wp-content/uploads/2023/05/Top-5-New-Tourist-Places-to-Visit-in-Hyderabad-768x512.jpg" alt="" >  
+                <h2 class="text-center">Statue Of Equality</h2> 
+            </div>
+        </div>
+    </div>
+    <a style="text-decoration: none; font-size: 25px; " class="fw-bold text-primary"   href="index.html">Back to Home</a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

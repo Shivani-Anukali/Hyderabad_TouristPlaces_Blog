@@ -1,0 +1,25 @@
+.container img{
+    height: 520px;
+    width: 600px;
+    border-radius: 40px;
+    transition: all 1s;
+}
+.container img:hover{
+    box-shadow: 10px 10px 15px blue;
+    transform: scale(1.1,1.1);
+}
+.container .lead{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    font-style: oblique;
+    margin-top: 25px;
+}
+.container .h1{
+    text-align: center;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}

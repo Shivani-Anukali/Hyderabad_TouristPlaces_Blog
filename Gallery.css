@@ -1,0 +1,11 @@
+.container img{
+    height:400px ;
+    width: 400px;
+    border-color: red;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.container img:hover{
+    box-shadow: 10px 10px 15px blue;
+    transform: scale(1.1,1.1);
+}
